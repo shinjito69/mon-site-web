@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Réservation - Restaurant Chinois</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="formulaire.html">Formulaire</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Formulaire de Réservation</h1>
+    <form action="#" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="date">Date de Réservation :</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="newsletter">S'abonner à la newsletter :</label>
+        <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+
+        <label>Type de Repas :</label><br>
+        <input type="radio" id="sur_place" name="type_repas" value="sur_place" required>
+        <label for="sur_place">Sur place</label><br>
+        <input type="radio" id="a_emporter" name="type_repas" value="a_emporter" required>
+        <label for="a_emporter">À emporter</label><br><br>
+
+        <input type="submit" value="Réserver">
+    </form>
+</body>
+</html>
